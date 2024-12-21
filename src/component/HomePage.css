@@ -1,0 +1,65 @@
+.banner {
+    background: url("https://via.placeholder.com/1920x1080") center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-text {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .banner-buttons .btn {
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .homestay-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .homestay-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .homestay-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .homestay-info {
+    padding: 15px;
+  }
+  
+  .price {
+    color: #00796b;
+    font-weight: bold;
+  }
+  
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
