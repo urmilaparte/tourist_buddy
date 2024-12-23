@@ -3,8 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background: #004d40; /* Dark green shade */
-    color: white;
+    background: #046958; /* Dark green shade */
+    color: rgb(245, 238, 238);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -23,7 +23,7 @@
   }
   
   .navbar a {
-    color: white;
+    color: rgb(241, 233, 233);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
@@ -31,7 +31,7 @@
   }
   
   .navbar a:hover {
-    color: #80cbc4; /* Light green shade */
+    color: #5d9690; /* Light green shade */
   }
   
   .menu-button {
@@ -51,7 +51,7 @@
     .navbar {
       display: none;
       flex-direction: column;
-      background: #004d40;
+      background: #066959;
       position: absolute;
       top: 60px;
       right: 0;
@@ -63,4 +63,5 @@
       display: flex;
     }
   }
+  
   
