@@ -13,8 +13,8 @@
   /* Slider Section */
   .slider {
     flex: 3;
-    max-width: 60%; /* Increased width */
-    height: 400px; /* Fixed height for larger display */
+    max-width: 60%;
+    height: 400px;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -22,22 +22,22 @@
   
   .slides {
     display: flex;
-    width: 300%; /* Adjust based on the number of images */
-    animation: slide 5s infinite;
+    width: 300%;
+    animation: slide 15s infinite linear;
   }
   
   .slides img {
     flex: 2 0 auto;
     width: 33.33%;
     height: 100%;
-    object-fit: cover; /* Ensures images fill the space proportionally */
+    object-fit: cover;
     border-radius: 10px;
   }
   
   /* Contact Form Section */
   .contact-form-container {
     flex: 1;
-    max-width: 30%; /* Adjusted to balance with larger slider */
+    max-width: 30%;
     background: #fff;
     border-radius: 10px;
     padding: 20px 60px;
@@ -45,6 +45,11 @@
     text-align: center;
     height: auto;
     min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .contact-form-container h2 {
@@ -64,6 +69,9 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+
+    width: 100%;
+    margin: 0 auto;
   }
   
   .contact-form input,
@@ -109,9 +117,78 @@
   @keyframes slide {
     0% { transform: translateX(0); }
     33.33% { transform: translateX(0); }
-    36.66% { transform: translateX(-100%); }
-    66.66% { transform: translateX(-100%); }
-    69.99% { transform: translateX(-200%); }
-    100% { transform: translateX(-200%); }
+    66.66% { transform: translateX(-33.33%); }
+    100% { transform: translateX(-66.66%); }
+  }
+  
+  /* Media Queries for responsiveness */
+  
+  /* For screens smaller than 1024px (tablets) */
+  @media (max-width: 1024px) {
+    .contact-section {
+      padding: 30px;
+    }
+  
+    .slider {
+      max-width: 100%;
+      height: 300px;
+    }
+  
+    .contact-form-container {
+      max-width: 100%;
+      padding: 20px;
+    }
+  
+    .contact-form-container h2 {
+      font-size: 1.4rem;
+    }
+  
+    .contact-form-container p {
+      font-size: 1rem;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 0.9rem;
+    }
+  
+    .contact-form .btn {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* For screens smaller than 768px (mobile phones) */
+  @media (max-width: 768px) {
+    .contact-section {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .slider {
+      max-width: 100%;
+      height: 250px;
+    }
+  
+    .contact-form-container {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  
+    .contact-form-container h2 {
+      font-size: 1.2rem;
+    }
+  
+    .contact-form-container p {
+      font-size: 0.9rem;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 0.9rem;
+    }
+  
+    .contact-form .btn {
+      font-size: 0.9rem;
+    }
   }
   
