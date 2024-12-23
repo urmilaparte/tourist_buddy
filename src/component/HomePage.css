@@ -118,9 +118,6 @@ h2{
   
 
 
-/* <<<<<<< HEAD */
-  /* update css yahan se hai */
-
 
   .booking-form-overlay {
   position: fixed;
@@ -189,7 +186,6 @@ h2{
 .submit-btn:hover {
   background-color: #0056b3;
 }
-/* ======= */
   .map {
     width: 100px; 
     height: 80px;
@@ -198,10 +194,7 @@ h2{
     border: 1px solid #ddd; 
   }
 
-
-
   button{
     height: 40px;
     width: 120px;
   }
-/* >>>>>>> 03e655054950aaee7dafb6b642e354a38f380304 */
