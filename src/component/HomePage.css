@@ -1,3 +1,16 @@
+
+body{
+  background-color: rgb(224, 215, 220);
+}
+
+h2{
+  font-size: 40px;
+  font-family: "Anton", serif;        /* Google font style */
+  text-align: center;
+ 
+}
+
+
 .banner {
     background: url("https://via.placeholder.com/1920x1080") center/cover no-repeat;
     height: 100vh;
@@ -19,34 +32,74 @@
     padding: 15px 25px;
     font-size: 1rem;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
   }
   
+
+  .btn-details{
+    background-color: beige;
+  }
+  
+
   .homestay-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    display: flex; 
+    gap: 20px; 
+    overflow-x: auto;           /* only horizontal card  scrolling */
+    padding: 10px; 
+
   }
   
   .homestay-card {
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
+    background: #cfc2ce; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    flex: 0 0 auto; 
+    width: 380px; 
+    height: 700px; 
   }
   
   .homestay-card img {
-    width: 100%;
-    height: 200px;
+    width: 100%; 
+    height: 300px; 
     object-fit: cover;
+    border-radius: 10px; 
   }
+  
+  .homestay-card h3, 
+  .homestay-card p, 
+  .homestay-card  {
+    text-align: center; 
+    margin: 10px 0; 
+  }
+  
+  .homestay-card h3{
+    font-size: 22px;
+  }
+  
+  .homestay-card p{
+       font-size: 17px;
+  }
+  
+
+  .homestay-card {
+    transition: transform 0.3s ease;          /* Smooth zoom effect */
+  }
+  
+  .homestay-card:hover {
+    transform: scale(1.05);                /* Zooms the all card by 10% */
+  }
+
+
   
   .homestay-info {
     padding: 15px;
   }
   
   .price {
-    color: #00796b;
+    color: #02473f;
     font-weight: bold;
+
   }
   
   
@@ -63,3 +116,19 @@
     font-size: 1rem;
   }
   
+
+
+  .map {
+    width: 100px; 
+    height: 80px;
+    margin-left: 20px; 
+    margin-top: 10px;
+    border: 1px solid #ddd; 
+  }
+
+
+
+  button{
+    height: 40px;
+    width: 120px;
+  }
