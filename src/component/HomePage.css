@@ -50,16 +50,5 @@
   }
   
   
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
   
-  .contact-form input, .contact-form textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-  }
   
