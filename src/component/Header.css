@@ -3,8 +3,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
+/* <<<<<<< HEAD */
     background: #046958; /* Dark green shade */
     color: rgb(245, 238, 238);
+/* ======= */
+    background-image: linear-gradient( 109.6deg,  rgba(239,74,152,1) 11.2%, rgba(167,101,161,1) 100.2% );
+    color: white;
+/* >>>>>>> 37a515d (Worked on HomePage and Header) */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -16,12 +21,13 @@
     color: #ffffff;
     text-decoration: none;
   }
-  
+
   .navbar {
     display: flex;
     gap: 20px;
   }
   
+/* <<<<<<< HEAD */
   .navbar a {
     color: rgb(241, 233, 233);
     text-decoration: none;
@@ -33,9 +39,36 @@
   .navbar a:hover {
     color: #5d9690; /* Light green shade */
   }
+/* ======= */
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 140px;
+}
+
+.nav-links a {
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);  
+  background-color: snow;
+  padding: 1px 20px;
+  transition: transform 0.3s ease, color 0.3s ease; 
+  display: inline-block; 
+
+}
+  
+  .nav-links a:hover {
+    color: #030303; 
+    transform: scale(1.2)translateY(-4px); 
+    background-color: rgb(255, 255, 255);
+
+/* >>>>>>> 37a515d (Worked on HomePage and Header) */
+  }
   
   .menu-button {
-    display: none; /* Hidden on larger screens */
+    display: none;
   }
   
   @media (max-width: 768px) {
@@ -63,5 +96,3 @@
       display: flex;
     }
   }
-  
-  

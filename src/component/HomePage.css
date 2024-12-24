@@ -1,4 +1,5 @@
 
+/* <<<<<<< HEAD */
 body{
   background-color: rgb(224, 215, 220);
 }
@@ -103,10 +104,15 @@ h2{
   }
   
   
+<<<<<<< HEAD
   /*
 <<<<<<< HEAD
-  
 =======
+  
+/* <<<<<<< HEAD */
+>>>>>>> d7f1c8f401bde6578c5f2133bff97c06c668dc7a
+  
+/* ======= */
   .contact-form input, .contact-form textarea {
     padding: 10px;
     border: 1px solid #ccc;
@@ -115,9 +121,6 @@ h2{
   }
   
 
-
-/* <<<<<<< HEAD */
-  /* update css yahan se hai */
 
 
   .booking-form-overlay {
@@ -187,7 +190,6 @@ h2{
 .submit-btn:hover {
   background-color: #0056b3;
 }
-/* ======= */
   .map {
     width: 100px; 
     height: 80px;
@@ -196,10 +198,133 @@ h2{
     border: 1px solid #ddd; 
   }
 
-
-
   button{
     height: 40px;
     width: 120px;
   }
+<<<<<<< HEAD
 /* >>>>>>> 03e655054950aaee7dafb6b642e354a38f380304 */
+=======
+/* <<<<<<< HEA */
+/* ======= */
+/* >>>>>>> 03e655054950aaee7dafb6b642e354a38f380304 */
+/* >>>>>>> e2ee3eeac933ed9b3c6d2ab6651d50d0faba440f */
+/* ======= */
+/* .carousel {
+  height: 100vh; 
+  width: 100%; 
+  overflow: hidden;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  z-index: -1; 
+} */
+
+.carousel {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Updated z-index */
+}
+
+
+.carousel-images img {
+  height: 100vh; 
+  width: 100vw; 
+  object-fit: cover; 
+  opacity: 0.7;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  8.33% { transform: translateX(-100vw); } /* 1/12 of the animation */
+  16.66% { transform: translateX(-200vw); }
+  25% { transform: translateX(-300vw); }
+  33.33% { transform: translateX(-400vw); }
+  41.66% { transform: translateX(-500vw); }
+  50% { transform: translateX(-600vw); }
+  58.33% { transform: translateX(-700vw); }
+  66.66% { transform: translateX(-800vw); }
+  75% { transform: translateX(-900vw); }
+  83.33% { transform: translateX(-1000vw); }
+  91.66% { transform: translateX(-1100vw); }
+  100% { transform: translateX(-1200vw); }
+}
+
+.banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(252, 242, 242);
+}
+
+.banner-text {
+  background: rgba(39, 35, 35, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  color: antiquewhite !important;
+}
+
+.banner-buttons .btn {
+  margin: 10px;
+  padding: 15px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+/* Homestay Grid Styles */
+.homestay-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.homestay-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.homestay-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.homestay-info {
+  padding: 15px;
+}
+
+.price {
+  color: #00796b;
+  font-weight: bold;
+}
+
+/* Contact Form Styles */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* >>>>>>> 37a515d (Worked on HomePage and Header) */
+/* >>>>>>> 1331af939280d7485b7f01982a6b6dd235554ae6 */
+>>>>>>> d7f1c8f401bde6578c5f2133bff97c06c668dc7a
