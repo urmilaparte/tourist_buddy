@@ -202,7 +202,7 @@ h2{
 /* >>>>>>> 03e655054950aaee7dafb6b642e354a38f380304 */
 /* >>>>>>> e2ee3eeac933ed9b3c6d2ab6651d50d0faba440f */
 /* ======= */
-.carousel {
+/* .carousel {
   height: 100vh; 
   width: 100%; 
   overflow: hidden;
@@ -210,13 +210,18 @@ h2{
   top: 0;
   left: 0;
   z-index: -1; 
+} */
+
+.carousel {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Updated z-index */
 }
 
-.carousel-images {
-  display: flex;
-  width: calc(100vw * 12); 
-  animation: slide 220s infinite linear; 
-}
 
 .carousel-images img {
   height: 100vh; 
@@ -227,7 +232,7 @@ h2{
 
 @keyframes slide {
   0% { transform: translateX(0); }
-  8.33% { transform: translateX(-100vw); } 
+  8.33% { transform: translateX(-100vw); } /* 1/12 of the animation */
   16.66% { transform: translateX(-200vw); }
   25% { transform: translateX(-300vw); }
   33.33% { transform: translateX(-400vw); }
@@ -238,7 +243,7 @@ h2{
   75% { transform: translateX(-900vw); }
   83.33% { transform: translateX(-1000vw); }
   91.66% { transform: translateX(-1100vw); }
-  100% { transform: translateX(-100); } 
+  100% { transform: translateX(-1200vw); }
 }
 
 .banner {

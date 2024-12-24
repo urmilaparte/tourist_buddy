@@ -8,15 +8,15 @@ function Contact() {
       <div className="slider">
         <div className="slides">
           <>
-          <img src="https://www.opindia.com/wp-content/uploads/2022/08/Dholkal-Ganesha-Dantewada-31082022.jpg " alt="Image 1" />
-          <img src=" https://dantewadatourism.in/tourism-property/category/IMG-T202211035076307972.jpg" alt="Image 2" />
-          <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiNxnE0uYhtn6-ZgA50wAvUvsEFi9yg2HtLA&s " alt="Image 3" />
-          <img src="https://www.opindia.com/wp-content/uploads/2022/08/Dholkal-Ganesha-Dantewada-31082022.jpg " alt="Image 1" />
-          <img src=" https://dantewadatourism.in/tourism-property/category/IMG-T202211035076307972.jpg" alt="Image 2" />
-          <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9oSDR8hmsxJ0zzhJ4f9QQFEfydGn60PNQ6A&s " alt="Image 4" />
-          <img src="https://www.opindia.com/wp-content/uploads/2022/08/Dholkal-Ganesha-Dantewada-31082022.jpg " alt="Image 1" />
-          <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9oSDR8hmsxJ0zzhJ4f9QQFEfydGn60PNQ6A&s " alt="Image 5" />
-          <img src=" https://dantewadatourism.in/tourism-property/category/IMG-T202211035076307972.jpg" alt="Image 2" />
+          <img src="https://www.opindia.com/wp-content/uploads/2022/08/Dholkal-Ganesha-Dantewada-31082022.jpg " alt="" />
+          <img src=" https://dantewadatourism.in/tourism-property/category/IMG-T202211035076307972.jpg" alt="" />
+          <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiNxnE0uYhtn6-ZgA50wAvUvsEFi9yg2HtLA&s " alt="" />
+          <img src="https://www.opindia.com/wp-content/uploads/2022/08/Dholkal-Ganesha-Dantewada-31082022.jpg " alt="" />
+          <img src=" https://dantewadatourism.in/tourism-property/category/IMG-T202211035076307972.jpg" alt="" />
+          <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9oSDR8hmsxJ0zzhJ4f9QQFEfydGn60PNQ6A&s " alt="" />
+          <img src="https://www.opindia.com/wp-content/uploads/2022/08/Dholkal-Ganesha-Dantewada-31082022.jpg " alt="" />
+          <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9oSDR8hmsxJ0zzhJ4f9QQFEfydGn60PNQ6A&s " alt="" />
+          <img src=" https://dantewadatourism.in/tourism-property/category/IMG-T202211035076307972.jpg" alt="" />
 
           </>
         </div>
